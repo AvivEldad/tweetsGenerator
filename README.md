@@ -6,6 +6,7 @@ and then the next words from the array of following words.
 
 
 ==program arguments===
+
 The program recive 4 arguments
 seed - number for srand function
 number of tweets - how many tweets we want to generate
@@ -13,12 +14,19 @@ path - path to the file to read from
 how much to read - how many words to read from the file. in the user wont assert this argument, the program will read all the file
 
 ==program files==
-twwetsGenerator.c
+
+tweetsGenerator.c
 justdoit_tweets.txt - example file to read from
 
+==os===
+
+Linux
+
 ===how to compile===
+
 gcc -std=c99 tweetsGenerator.c -o tweetsGenerator
 
 ==how to run===
-.tweetsGenerator seed number of tweets path how much to read (optional)
+
+./tweetsGenerator seed number of tweets path how much to read (optional)
 
